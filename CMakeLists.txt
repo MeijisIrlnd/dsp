@@ -18,4 +18,4 @@ add_library(signalsmith-dsp STATIC
 
 add_library(signalsmith::signalsmith-dsp ALIAS signalsmith-dsp)
 
-target_include_directories(signalsmith-dsp PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_include_directories(signalsmith-dsp PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
